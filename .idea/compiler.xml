@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-service" />
+        <module name="feign-api" />
+        <module name="feign-impl" />
+        <module name="service-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-service" target="1.8" />
+      <module name="feign-api" target="1.8" />
+      <module name="feign-impl" target="1.8" />
+      <module name="registry" target="1.8" />
+      <module name="service-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
